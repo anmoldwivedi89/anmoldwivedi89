@@ -73,9 +73,7 @@ A blood donation platform developed to connect donors and recipients efficiently
 
 ## 📈 GitHub Activity
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=anmoldwivedi89&theme=tokyonight" />
-</p>
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=anmoldwivedi89&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
 ---
 
