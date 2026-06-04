@@ -66,14 +66,8 @@ A blood donation platform developed to connect donors and recipients efficiently
 
 ---
 
-## 📈 GitHub Stats
+## 📈 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anmoldwivedi89&show_icons=true&theme=tokyonight" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=anmoldwivedi89&label=Profile%20Views&color=0e75b6&style=flat" />
+  <img src="https://streak-stats.demolab.com/?user=anmoldwivedi89&theme=tokyonight" />
 </p>
