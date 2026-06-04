@@ -62,15 +62,15 @@
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anmoldwivedi89&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=anmoldwivedi89&show_icons=true&theme=tokyonight" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anmoldwivedi89&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=anmoldwivedi89&theme=tokyonight" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anmoldwivedi89&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anmoldwivedi89&layout=compact&theme=tokyonight" />
 </p>
 
 ---
@@ -79,7 +79,7 @@
 
 ### 🩸 Rudhir Setu
 
-A blood donation platform developed to connect donors and recipients efficiently. The project received positive feedback and helped secure **1st place in Hackathon 2.0 (2026)**.
+A blood donation platform developed to connect donors and recipients efficiently. The project helped secure **1st Place in Hackathon 2.0 (2026)**.
 
 **Tech Stack:** React.js, Node.js, Express.js, MongoDB, Firebase
 
