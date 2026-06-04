@@ -70,15 +70,6 @@ A blood donation platform developed to connect donors and recipients efficiently
 **Tech Stack:** React.js, Node.js, Express.js, MongoDB, Firebase
 
 ---
-
-## 📈 GitHub Activity
-
-## 📈 GitHub Activity
-
-![GitHub Streak](https://streak-stats.demolab.com?user=anmoldwivedi89)
-
----
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=anmoldwivedi89&label=Profile%20Views&color=0e75b6&style=flat" />
 </p>
