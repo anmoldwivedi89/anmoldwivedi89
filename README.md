@@ -22,6 +22,12 @@
 - 💬 Ask me about React.js, Node.js, Express.js, MongoDB, Git, GitHub, and Firebase
 - ⚡ I enjoy building real-world projects and solving practical problems through technology
 
+## 🎮 Contribution Graph
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/anmoldwivedi89/anmoldwivedi89/output/bomberman-contribution-graph-dark.svg" alt="Bomberman Contribution Graph" />
+</p>
+
 ---
 
 ## 🛠️ Tech Stack
@@ -68,15 +74,6 @@ A blood donation platform developed to connect donors and recipients efficiently
 🏆 **Winner – Hackathon 2.0 (2026)**
 
 **Tech Stack:** React.js, Node.js, Express.js, MongoDB, Firebase
-
----
----
-
-## 🎮 Contribution Graph
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/anmoldwivedi89/anmoldwivedi89/output/bomberman-contribution-graph.svg" alt="Bomberman Contribution Graph" />
-</p>
 
 ---
 
