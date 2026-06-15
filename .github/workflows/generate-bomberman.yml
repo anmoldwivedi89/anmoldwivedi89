@@ -18,7 +18,7 @@ jobs:
       - name: Generate Graph
         uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: YOUR_GITHUB_USERNAME
+          github_user_name: anmoldwivedi89
           games: bomberman
 
       - name: Push to Output Branch
