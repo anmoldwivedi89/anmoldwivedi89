@@ -75,7 +75,7 @@ A blood donation platform developed to connect donors and recipients efficiently
 ## 🎮 Contribution Graph
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/anmoldwivedi89/anmoldwivedi89/output/bomberman-contribution-graph.svg" alt="Bomberman Contribution Graph" />
+  <img src="https://raw.githubusercontent.com/anmoldwivedi89/anmoldwivedi89/output/dist/bomberman-contribution-graph.svg" alt="Bomberman Contribution Graph" />
 </p>
 
 ---
