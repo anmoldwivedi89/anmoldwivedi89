@@ -7,7 +7,7 @@ on:
   workflow_dispatch: # Allows manual trigger from the Actions tab
   push:
     branches:
-      - main
+      - index.html
 
 jobs:
   generate:
