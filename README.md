@@ -12,6 +12,61 @@
 
 ---
 
+## 🎮 Contribution Graph
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/anmoldwivedi89/anmoldwivedi89/output/bomberman-contribution-graph-dark.svg" alt="Bomberman Contribution Graph" width="100%" />
+</p>
+
+---
+
+## 🛠️ Tech Stack
+
+<details open>
+<summary><b>Languages & Tools</b></summary>
+
+### Languages
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+### Frontend
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-8511FA?style=for-the-badge&logo=bootstrap&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+### Backend
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
+
+### Database & Cloud
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-A08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+
+### Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)
+
+</details>
+
+---
+
+## 📌 Featured Project
+
+### 🩸 Rudhir Setu
+
+> A blood donation platform developed to connect donors and recipients efficiently.
+
+🏆 **Winner – Hackathon 2.0 (2026)**
+
+**Tech Stack:** React.js, Node.js, Express.js, MongoDB, Firebase
+
+---
+
 ## 🚀 About Me
 
 - 🎓 MCA Student at Allenhouse Institute of Technology (AKTU)
@@ -21,59 +76,6 @@
 - 🤝 Open to collaborating on Open Source and Full Stack Development Projects
 - 💬 Ask me about React.js, Node.js, Express.js, MongoDB, Git, GitHub, and Firebase
 - ⚡ I enjoy building real-world projects and solving practical problems through technology
-
-## 🎮 Contribution Graph
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/anmoldwivedi89/anmoldwivedi89/output/bomberman-contribution-graph-dark.svg" alt="Bomberman Contribution Graph" />
-</p>
-
----
-
-## 🛠️ Tech Stack
-
-### Languages
-
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-
-### Frontend
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-8511FA?style=for-the-badge&logo=bootstrap&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
-### Backend
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
-
-### Database & Cloud
-
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-A08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-
-### Tools
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)
-
----
-
-## 📌 Featured Project
-
-### 🩸 Rudhir Setu
-
-A blood donation platform developed to connect donors and recipients efficiently.
-
-🏆 **Winner – Hackathon 2.0 (2026)**
-
-**Tech Stack:** React.js, Node.js, Express.js, MongoDB, Firebase
 
 ---
 
