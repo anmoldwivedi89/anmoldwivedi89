@@ -1,256 +1,47 @@
-<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 1024 1050" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet">
   <defs>
     <style>
-      @keyframes slideInLeft {
-        0% { transform: translateX(-300px); opacity: 0; }
-        100% { transform: translateX(0); opacity: 1; }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
       }
-      @keyframes slideInRight {
-        0% { transform: translateX(300px); opacity: 0; }
-        100% { transform: translateX(0); opacity: 1; }
+      @keyframes fadeOut {
+        from { opacity: 1; }
+        to { opacity: 0; }
+      }
+      @keyframes pulse {
+        0%, 100% { filter: drop-shadow(0 0 10px rgba(255, 150, 0, 0.8)); }
+        50% { filter: drop-shadow(0 0 20px rgba(255, 150, 0, 1)); }
+      }
+      @keyframes glow {
+        0%, 100% { filter: brightness(1); }
+        50% { filter: brightness(1.3); }
       }
       @keyframes shake {
         0%, 100% { transform: translateY(0); }
-        10% { transform: translateY(-15px); }
+        10% { transform: translateY(-8px); }
         20% { transform: translateY(0); }
-        30% { transform: translateY(-15px); }
+        30% { transform: translateY(-8px); }
         40% { transform: translateY(0); }
       }
-      @keyframes pulse {
-        0%, 100% { filter: drop-shadow(0 0 10px rgba(255, 100, 0, 0.8)); }
-        50% { filter: drop-shadow(0 0 25px rgba(255, 150, 0, 1)); }
-      }
-      @keyframes flicker {
-        0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 1; }
-        20%, 24%, 55% { opacity: 0.4; }
-      }
-      @keyframes slash1 {
-        0% { transform: translateX(-100px) rotateZ(-60deg); opacity: 0; }
-        10% { opacity: 1; }
-        90% { opacity: 1; }
-        100% { transform: translateX(200px) rotateZ(60deg); opacity: 0; }
-      }
-      @keyframes slash2 {
-        0% { transform: translateX(-100px) rotateZ(60deg); opacity: 0; }
-        10% { opacity: 1; }
-        90% { opacity: 1; }
-        100% { transform: translateX(200px) rotateZ(-60deg); opacity: 0; }
-      }
-      @keyframes firebreath {
-        0% { transform: scaleX(0); opacity: 0; }
-        5% { opacity: 1; }
-        95% { opacity: 1; }
-        100% { transform: scaleX(0); opacity: 0; }
-      }
-      @keyframes collapse {
-        0% { transform: translateY(0) rotateZ(0deg); }
-        100% { transform: translateY(100px) rotateZ(-45deg); }
-      }
-      @keyframes damageNum {
-        0% { transform: translateY(0); opacity: 1; }
-        100% { transform: translateY(-100px); opacity: 0; }
-      }
-      @keyframes victory {
-        0% { opacity: 0; }
-        100% { opacity: 1; }
-      }
 
-      .bg { animation: none; }
-      .shrine { animation: pulse 2s infinite; }
-      .flame { animation: flicker 0.6s infinite; }
-      .dino { animation: slideInRight 1.5s ease-out 2s forwards; }
-      .dino-shake { animation: shake 0.8s ease-out 4s forwards; }
-      .fire { animation: firebreath 2s ease-out 5s forwards; }
-      .hero { animation: slideInLeft 1.5s ease-out 7s forwards; }
-      .attack1 { animation: slash1 0.6s ease-out 9s forwards; }
-      .attack2 { animation: slash2 0.6s ease-out 10.5s forwards; }
-      .attack3 { animation: slash1 0.6s ease-out 12s forwards; }
-      .damage { animation: damageNum 1s ease-out 11s forwards; }
-      .defeat { animation: collapse 1s ease-in 13s forwards; }
-      .win { animation: victory 1s ease-out 14s forwards; }
+      .battle-image { animation: fadeIn 0.5s ease-out; }
+      .victory-overlay { animation: fadeIn 2s ease-out 20s forwards; }
+      .pulse-effect { animation: pulse 2s ease-in-out infinite; }
     </style>
   </defs>
 
-  <!-- BACKGROUND -->
-  <rect class="bg" width="1200" height="800" fill="#0a0a2e"/>
+  <!-- Main Battle Image -->
+  <image class="battle-image" xlink:href="./anmol.png" x="0" y="0" width="1024" height="1050" preserveAspectRatio="xMidYMid meet"/>
 
-  <!-- Night sky gradient -->
-  <defs>
-    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0a2e"/>
-      <stop offset="100%" style="stop-color:#16213e"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="800" fill="url(#skyGrad)"/>
+  <!-- Victory Glow Overlay - appears after victory -->
+  <rect class="victory-overlay" width="1024" height="1050" fill="#00ff00" opacity="0.1" style="opacity: 0;"/>
 
-  <!-- Stars -->
-  <circle cx="150" cy="80" r="2" fill="#fff" opacity="0.8"/>
-  <circle cx="350" cy="100" r="1.5" fill="#fff" opacity="0.6"/>
-  <circle cx="600" cy="70" r="2" fill="#fff" opacity="0.7"/>
-  <circle cx="850" cy="90" r="1.5" fill="#fff" opacity="0.8"/>
-  <circle cx="1050" cy="110" r="2" fill="#fff" opacity="0.6"/>
-
-  <!-- Mountains -->
-  <polygon points="0,400 200,250 400,400" fill="#1a1a3f"/>
-  <polygon points="300,400 550,200 800,400" fill="#0f0f2e"/>
-  <polygon points="700,400 950,280 1200,400" fill="#1a1a3f"/>
-
-  <!-- GitHub Streak Shrine - Center -->
-  <g class="shrine">
-    <rect x="480" y="320" width="240" height="200" fill="#2a1810" stroke="#ff9900" stroke-width="4" rx="8"/>
-    <rect x="490" y="330" width="220" height="180" fill="#3d2415" stroke="#ffbb00" stroke-width="2" rx="6"/>
-
-    <!-- Shrine glow -->
-    <circle cx="600" cy="420" r="80" fill="#ff8800" opacity="0.15"/>
-
-    <!-- Flames 🔥 -->
-    <g class="flame" style="animation-delay: 0s">
-      <polygon points="560,480 565,450 570,480" fill="#ff4400"/>
-      <polygon points="560,475 568,445 576,475" fill="#ff7700"/>
-    </g>
-    <g class="flame" style="animation-delay: 0.1s">
-      <polygon points="580,480 585,450 590,480" fill="#ff4400"/>
-      <polygon points="580,475 588,445 596,475" fill="#ff7700"/>
-    </g>
-    <g class="flame" style="animation-delay: 0.2s">
-      <polygon points="600,480 605,450 610,480" fill="#ff4400"/>
-      <polygon points="600,475 608,445 616,475" fill="#ff7700"/>
-    </g>
-    <g class="flame" style="animation-delay: 0.3s">
-      <polygon points="620,480 625,450 630,480" fill="#ff4400"/>
-      <polygon points="620,475 628,445 636,475" fill="#ff7700"/>
-    </g>
-    <g class="flame" style="animation-delay: 0.4s">
-      <polygon points="640,480 645,450 650,480" fill="#ff4400"/>
-      <polygon points="640,475 648,445 656,475" fill="#ff7700"/>
-    </g>
+  <!-- Animated Fire Effect - overlays on shrine area -->
+  <g class="pulse-effect" style="opacity: 0;">
+    <circle cx="512" cy="200" r="60" fill="#ff6600" opacity="0.3"/>
   </g>
 
-  <!-- DINO BOSS -->
-  <g class="dino dino-shake">
-    <!-- Body -->
-    <ellipse cx="950" cy="280" rx="90" ry="60" fill="#dd2222" stroke="#990000" stroke-width="3"/>
-    <!-- Neck -->
-    <rect x="1020" y="230" width="45" height="60" fill="#dd2222" stroke="#990000" stroke-width="2"/>
-    <!-- Head -->
-    <circle cx="1065" cy="200" r="45" fill="#ff3333" stroke="#990000" stroke-width="2"/>
-    <!-- Jaw -->
-    <ellipse cx="1075" cy="220" rx="35" ry="20" fill="#cc2222" stroke="#990000" stroke-width="1"/>
-    <!-- Eye -->
-    <circle cx="1080" cy="185" r="8" fill="#ffff00" stroke="#000" stroke-width="1"/>
-    <circle cx="1082" cy="183" r="4" fill="#000"/>
-    <!-- Teeth -->
-    <rect x="1050" y="230" width="8" height="8" fill="#fff"/>
-    <rect x="1065" y="235" width="8" height="8" fill="#fff"/>
-    <rect x="1080" y="235" width="8" height="8" fill="#fff"/>
-    <!-- Horn -->
-    <polygon points="1055,145 1060,110 1050,150" fill="#666" stroke="#333" stroke-width="1"/>
-    <!-- Back legs -->
-    <rect x="900" y="320" width="25" height="80" fill="#dd2222" stroke="#990000" stroke-width="1" rx="5"/>
-    <rect x="1000" y="320" width="25" height="80" fill="#dd2222" stroke="#990000" stroke-width="1" rx="5"/>
-    <!-- Front legs -->
-    <rect x="880" y="300" width="22" height="95" fill="#cc1111" stroke="#990000" stroke-width="1" rx="5"/>
-    <rect x="1040" y="300" width="22" height="95" fill="#cc1111" stroke="#990000" stroke-width="1" rx="5"/>
-    <!-- Tail -->
-    <path d="M 880 260 Q 800 220 750 180" stroke="#dd2222" stroke-width="20" fill="none" stroke-linecap="round"/>
-  </g>
-
-  <!-- FIRE BREATH EFFECT -->
-  <g class="fire">
-    <polygon points="1100,180 1200,160 1200,220 1100,200" fill="#ff4400" opacity="0.8"/>
-    <polygon points="1120,190 1250,150 1250,250 1120,210" fill="#ff7700" opacity="0.6"/>
-    <circle cx="1130" cy="200" r="25" fill="#ff6600" opacity="0.5"/>
-    <circle cx="1160" cy="200" r="20" fill="#ffaa00" opacity="0.4"/>
-  </g>
-
-  <!-- HERO (ANMOL) -->
-  <g class="hero">
-    <!-- Hero sprite from anmol.png -->
-    <image xlink:href="./anmol.png" x="100" y="150" width="120" height="140" preserveAspectRatio="xMidYMid meet"/>
-
-    <!-- Blue Cape -->
-    <polygon points="110,160 80,180 75,280 110,290 145,280 140,180" fill="#0066ff" opacity="0.7"/>
-
-    <!-- Silver Armor -->
-    <ellipse cx="160" cy="180" rx="40" ry="30" fill="#cccccc" opacity="0.6"/>
-    <rect x="135" y="200" width="50" height="60" fill="#cccccc" opacity="0.5" rx="5"/>
-
-    <!-- Code Blade Sword -->
-    <g>
-      <rect x="50" y="140" width="10" height="120" fill="#4488ff" stroke="#0044cc" stroke-width="2"/>
-      <polygon points="55,135 50,145 60,145" fill="#ffff00"/>
-      <circle cx="55" cy="270" r="8" fill="#ff9900"/>
-    </g>
-
-    <!-- Shield -->
-    <circle cx="200" cy="200" r="25" fill="#ff9900" opacity="0.7" stroke="#cc6600" stroke-width="2"/>
-  </g>
-
-  <!-- SWORD SLASH EFFECTS -->
-  <g class="attack1">
-    <line x1="200" y1="200" x2="800" y2="320" stroke="#4488ff" stroke-width="15" stroke-linecap="round" opacity="0.9"/>
-    <line x1="200" y1="230" x2="800" y2="350" stroke="#88ccff" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
-    <circle cx="800" cy="320" r="20" fill="#4488ff" opacity="0.5"/>
-  </g>
-
-  <g class="attack2">
-    <line x1="200" y1="250" x2="850" y2="250" stroke="#4488ff" stroke-width="15" stroke-linecap="round" opacity="0.9"/>
-    <line x1="200" y1="280" x2="850" y2="280" stroke="#88ccff" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
-    <circle cx="850" cy="250" r="20" fill="#4488ff" opacity="0.5"/>
-  </g>
-
-  <g class="attack3">
-    <line x1="200" y1="200" x2="950" y2="350" stroke="#4488ff" stroke-width="15" stroke-linecap="round" opacity="0.9"/>
-    <line x1="200" y1="230" x2="950" y2="380" stroke="#88ccff" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
-    <line x1="180" y1="200" x2="970" y2="350" stroke="#ffff00" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
-    <circle cx="950" cy="350" r="30" fill="#ffff00" opacity="0.4"/>
-  </g>
-
-  <!-- DAMAGE NUMBER 999 -->
-  <text class="damage" x="950" y="250" font-family="Arial Black" font-size="64" fill="#ffff00" stroke="#ff0000" stroke-width="2" font-weight="bold">999</text>
-
-  <!-- DINO DEFEAT -->
-  <g class="defeat">
-    <circle cx="950" cy="350" r="15" fill="#ff6600" opacity="0.7"/>
-    <circle cx="930" cy="320" r="12" fill="#ff7700" opacity="0.6"/>
-    <circle cx="970" cy="330" r="10" fill="#ffaa00" opacity="0.5"/>
-  </g>
-
-  <!-- VICTORY TEXT -->
-  <g class="win" style="opacity: 0;">
-    <rect width="1200" height="800" fill="#000" opacity="0.7"/>
-
-    <text x="600" y="180" text-anchor="middle" font-family="Arial Black" font-size="64" fill="#ffff00" font-weight="bold">🏆 VICTORY!</text>
-
-    <text x="600" y="280" text-anchor="middle" font-family="Arial" font-size="48" fill="#ff6600">🔥 STREAK SAVED 🔥</text>
-
-    <text x="600" y="360" text-anchor="middle" font-family="Arial" font-size="32" fill="#00ff00">+1000 XP</text>
-    <text x="600" y="410" text-anchor="middle" font-family="Arial" font-size="32" fill="#00ff00">+50 COMMITS</text>
-    <text x="600" y="460" text-anchor="middle" font-family="Arial" font-size="32" fill="#00ff00">+10 STARS</text>
-
-    <text x="600" y="580" text-anchor="middle" font-family="Arial Black" font-size="40" fill="#0099ff">KEEP CODING</text>
-    <text x="600" y="640" text-anchor="middle" font-family="Arial Black" font-size="40" fill="#0099ff">KEEP WINNING</text>
-
-    <text x="600" y="720" text-anchor="middle" font-family="Arial" font-size="48" fill="#ff0000">❤️</text>
-  </g>
-
-  <!-- HUD PANEL -->
-  <rect x="20" y="20" width="280" height="150" fill="#000" opacity="0.85" stroke="#00ff00" stroke-width="3" rx="8"/>
-  <text x="40" y="50" font-family="Courier New" font-size="24" fill="#00ff00" font-weight="bold">ANMOL</text>
-  <text x="40" y="80" font-family="Courier New" font-size="18" fill="#00ff00">LVL 22</text>
-
-  <text x="40" y="110" font-family="Courier New" font-size="16" fill="#00ff00">HP: 100/100</text>
-  <rect x="40" y="120" width="240" height="15" fill="#003300" stroke="#00ff00" stroke-width="1"/>
-  <rect x="40" y="120" width="240" height="15" fill="#00ff00" opacity="0.8"/>
-
-  <!-- BOSS HUD -->
-  <rect x="900" y="20" width="280" height="120" fill="#000" opacity="0.85" stroke="#ff0000" stroke-width="3" rx="8"/>
-  <text x="920" y="50" font-family="Courier New" font-size="24" fill="#ff0000" font-weight="bold">DINO BOSS</text>
-
-  <text x="920" y="85" font-family="Courier New" font-size="16" fill="#ff0000">HP: 100/100</text>
-  <rect x="920" y="95" width="240" height="15" fill="#330000" stroke="#ff0000" stroke-width="1"/>
-  <rect x="920" y="95" width="240" height="15" fill="#00ff00" opacity="0.8"/>
-
-  <!-- BATTLE TEXT LABELS -->
-  <text x="600" y="130" text-anchor="middle" font-family="Arial Black" font-size="32" fill="#ff0000" opacity="0.7">⚔️ STREAK GUARDIAN QUEST ⚔️</text>
+  <!-- Victory Flash -->
+  <rect class="victory-overlay" width="1024" height="1050" fill="#ffff00" opacity="0.05" style="opacity: 0;"/>
 </svg>
