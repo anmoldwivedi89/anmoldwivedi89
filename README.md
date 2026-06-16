@@ -19,6 +19,32 @@
 
 ---
 
+## 🏆 Achievements & Badges
+
+<div align="center">
+  
+![Hackathon Winner](https://img.shields.io/badge/🏆-Hackathon%202.0%20Winner-FFD700?style=for-the-badge)
+![Full Stack Developer](https://img.shields.io/badge/💻-Full%20Stack%20Developer-61DAFB?style=for-the-badge)
+![MERN Specialist](https://img.shields.io/badge/⚡-MERN%20Specialist-00DD00?style=for-the-badge)
+![Open Source Contributor](https://img.shields.io/badge/🤝-Open%20Source%20Contributor-FF6B6B?style=for-the-badge)
+
+![Problem Solver](https://img.shields.io/badge/🧠-Problem%20Solver-9B59B6?style=for-the-badge)
+![Tech Enthusiast](https://img.shields.io/badge/🚀-Tech%20Enthusiast-FF9800?style=for-the-badge)
+![Code Quality](https://img.shields.io/badge/✨-Clean%20Code-4CAF50?style=for-the-badge)
+![Quick Learner](https://img.shields.io/badge/📚-Quick%20Learner-2196F3?style=for-the-badge)
+
+</div>
+
+---
+
+## ⚔️ Streak Guardian Quest
+
+<div align="center">
+  <img src="./battle.svg" width="100%" alt="Anmol's Streak Guardian Battle Animation" />
+</div>
+
+---
+
 ## 🎮 My Contribution Streak
 <div align="center">
   <img src="https://raw.githubusercontent.com/anmoldwivedi89/anmoldwivedi89/output/bomberman-contribution-graph-dark.svg" alt="Bomberman Contribution Graph" width="100%" />
