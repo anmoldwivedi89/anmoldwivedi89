@@ -32,7 +32,7 @@
   </defs>
 
   <!-- Main Battle Image -->
-  <image class="battle-image" xlink:href="./anmol.png" x="0" y="0" width="1024" height="1050" preserveAspectRatio="xMidYMid meet"/>
+  <image class="battle-image" xlink:href="https://raw.githubusercontent.com/anmoldwivedi89/anmoldwivedi89/index.html/anmol.png" x="0" y="0" width="1024" height="1050" preserveAspectRatio="xMidYMid meet"/>
 
   <!-- Victory Glow Overlay - appears after victory -->
   <rect class="victory-overlay" width="1024" height="1050" fill="#00ff00" opacity="0.1" style="opacity: 0;"/>
