@@ -6,6 +6,10 @@
 ```
 
 <div align="center">
+  <img src="./battle.svg" alt="Anmol's Streak Guardian Quest - RPG Battle Animation" width="960"/>
+</div>
+
+<div align="center">
   <a href="https://www.linkedin.com/in/anmoldwivedi89/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect%20With%20Me-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
