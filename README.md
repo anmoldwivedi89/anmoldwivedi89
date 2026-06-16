@@ -45,13 +45,6 @@
 
 ---
 
-## 🎮 My Contribution Streak
-<div align="center">
-  <img src="https://raw.githubusercontent.com/anmoldwivedi89/anmoldwivedi89/output/bomberman-contribution-graph-dark.svg" alt="Bomberman Contribution Graph" width="100%" />
-</div>
-
----
-
 ## 💼 Current Status
 
 ```
